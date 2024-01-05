@@ -1,5 +1,5 @@
 import {describe, it, expect, beforeAll, afterAll, jest } from '@jest/globals'
-import { app } from '../../src/app'
+import { app } from '../../src/infra/http/express/app'
 import http from 'node:http'
 import { Person } from '../../src/domain/person.entity'
 
