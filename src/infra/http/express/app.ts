@@ -1,5 +1,5 @@
 import  express, { Request, Response } from "express";
-import { Person } from "./domain/person.entity";
+import { Person } from "../../../domain/person.entity";
 
 const app = express();
 

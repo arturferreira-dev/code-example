@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "clear": "rm -rf build",
-    "start": "node build/src/app.js",
-    "start:dev": "node --inspect build/src/app.js",
+    "start": "node build/server.js",
+    "start:dev": "node --inspect build/server.js",
     "prestart:dev": "rm -rf build && npm run build",
     "test": "jest --runInBand tests/",
     "test:dev": "jest --runInBand --watchAll tests/",
